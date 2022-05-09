@@ -1,7 +1,3 @@
-// var container = document.createElement('div');
-// newDiv.innerHTML = '<h2>Заголовок</h2><p>Lorem ipsum dolor sit amet.</p>';
-
-// document.body.appendChild(document.createElement('div'))
 document.body.innerHTML=`<div class="container">
 <div class="night_mode">
   <div class="toggle_circle"></div>
