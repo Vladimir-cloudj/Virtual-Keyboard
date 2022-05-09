@@ -1,4 +1,4 @@
-document.body.innerHTML=`<div class="container">
+document.body.innerHTML = `<div class="container">
 <div class="night_mode">
   <div class="toggle_circle"></div>
 </div>
@@ -79,7 +79,7 @@ document.body.innerHTML=`<div class="container">
   </div>
 </div>
 <input class="text" type="text" >
-</div>`
+</div>`;
 
 let keys = document.querySelectorAll('.keys');
 let spaceKey = document.querySelector('.space_key');
