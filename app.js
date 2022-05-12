@@ -1,4 +1,5 @@
 document.body.innerHTML = `<div class="container">
+<a href="https://github.com/Vladimir-cloudj/Virtual-Keyboard/pulls">link to github</a>
 <div class="night_mode">
   <div class="toggle_circle"></div>
 </div>
@@ -79,18 +80,20 @@ document.body.innerHTML = `<div class="container">
   </div>
 </div>
 <input class="text" type="text" >
+
 </div>`;
 
-let keys = document.querySelectorAll('.keys');
-let spaceKey = document.querySelector('.space_key');
-let shift_left = document.querySelector('.shift_left');
-let shift_right = document.querySelector('.shift_right');
-let caps_lock_key = document.querySelector('.caps_lock_key');
-let toggle_circle = document.querySelector('.toggle_circle');
-let night_mode = document.querySelector('.night_mode');
+const keys = document.querySelectorAll('.keys');
+const spaceKey = document.querySelector('.space_key');
+const shift_left = document.querySelector('.shift_left');
+const shift_right = document.querySelector('.shift_right');
+const caps_lock_key = document.querySelector('.caps_lock_key');
+const toggle_circle = document.querySelector('.toggle_circle');
+const night_mode = document.querySelector('.night_mode');
 let body = document.querySelector('body');
-let keyboard_wrapp = document.querySelector('.keyboard_wrapp');
+const keyboard_wrapp = document.querySelector('.keyboard_wrapp');
 let text_input = document.querySelector('.text');
+const change_color = document.querySelector('.change_light_color');
 let keyboard_lights = document.querySelector('.keyboard_lights');
 
 for (let i = 0; i < keys.length; i++) {
